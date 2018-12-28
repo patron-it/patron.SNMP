@@ -7,8 +7,8 @@
     <ProjectGuid>{C60AD17C-977C-4EF8-B512-595DA35A461E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Proxx.SNMP</RootNamespace>
-    <AssemblyName>Proxx.SNMP</AssemblyName>
+    <RootNamespace>Patron.SNMP</RootNamespace>
+    <AssemblyName>Patron.SNMP</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\Proxx.SNMP.XML</DocumentationFile>
+    <DocumentationFile>..\Patron.SNMP.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>

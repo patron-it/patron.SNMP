@@ -4,7 +4,7 @@ using System.Management.Automation;
 using SnmpSharpNet;
 using System.Net;
 
-namespace Proxx.SNMP
+namespace Patron.SNMP
 {
     /// <list type="alertSet">
     ///   <item>
@@ -113,6 +113,7 @@ namespace Proxx.SNMP
             _SimpleSnmp = new SimpleSnmp();
             _SimpleSnmp.Community = _Community;
             _SimpleSnmp.Retry = _Retry;
+            _SimpleSnmp.PeerPort = _Port;
             _SimpleSnmp.Timeout = _TimeOut;
         }
 
@@ -264,6 +265,7 @@ namespace Proxx.SNMP
             _SimpleSnmp = new SimpleSnmp();
             _SimpleSnmp.Community = _Community;
             _SimpleSnmp.Retry = _Retry;
+            _SimpleSnmp.PeerPort = _Port;
             _SimpleSnmp.Timeout = _TimeOut;
             if (_Force) { _RootOID = null; }
             else { _RootOID = new Oid(_Oid.ToString()); }
